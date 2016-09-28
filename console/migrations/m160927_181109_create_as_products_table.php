@@ -14,6 +14,8 @@ class m160927_181109_create_as_products_table extends Migration
     {
         $this->createTable('as_products', [
             'id' => $this->primaryKey(),
+            'inner_product' => $this->bigInteger(),
+
         ]);
     }
 
