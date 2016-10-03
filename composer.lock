@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "914f9194a4d021de88b285b03e683984",
-    "content-hash": "e1929a97e872bdbaacc8530468eccb67",
+    "hash": "596d2c6eeabb73693b5ac5d0d7fa6809",
+    "content-hash": "5a25ff34bb80908d773fd8929f82d490",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -92,12 +92,12 @@
             "version": "3.2.7",
             "source": {
                 "type": "git",
-                "url": "https://github.com/RobinHerbots/Inputmask.git",
+                "url": "https://github.com/RobinHerbots/jquery.inputmask.git",
                 "reference": "5a72c563b502b8e05958a524cdfffafe9987be38"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/RobinHerbots/Inputmask/zipball/5a72c563b502b8e05958a524cdfffafe9987be38",
+                "url": "https://api.github.com/repos/RobinHerbots/jquery.inputmask/zipball/5a72c563b502b8e05958a524cdfffafe9987be38",
                 "reference": "5a72c563b502b8e05958a524cdfffafe9987be38",
                 "shasum": ""
             },
@@ -298,6 +298,58 @@
                 "html"
             ],
             "time": "2016-07-16 12:58:58"
+        },
+        {
+            "name": "jisoft/yii2-sypexgeo",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JiSoft/yii2-sypexgeo.git",
+                "reference": "faa8930cbebc183014cb653827508e9b187ed4c1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JiSoft/yii2-sypexgeo/zipball/faa8930cbebc183014cb653827508e9b187ed4c1",
+                "reference": "faa8930cbebc183014cb653827508e9b187ed4c1",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "jisoft\\sypexgeo\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "zapimir",
+                    "email": "zapimir@zapimir.net"
+                },
+                {
+                    "name": "BINOVATOR",
+                    "email": "info@sypex.net"
+                },
+                {
+                    "name": "jisoft",
+                    "email": "jisoft.dn@gmail.com"
+                }
+            ],
+            "description": "Yii2 extension for Sypex Geo API (http://sypexgeo.net)",
+            "homepage": "https://github.com/JiSoft/yii2-sypexgeo",
+            "keywords": [
+                "geo",
+                "geoip",
+                "geolocation",
+                "sypexgeo",
+                "yii2"
+            ],
+            "time": "2014-06-16 06:21:37"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -902,8 +954,10 @@
         }
     ],
     "aliases": [],
-    "minimum-stability": "stable",
-    "stability-flags": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "jisoft/yii2-sypexgeo": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
